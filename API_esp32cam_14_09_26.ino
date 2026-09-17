@@ -6,14 +6,14 @@
 
 #include "board_config.h"
 
-const char* ssid = "Lagus2G";
-const char* password = "@Lagus991512777";
+const char* ssid = "Seu wifi";
+const char* password = "Sua senha";
 
 const char* dht_esp32_ip = "192.168.0.186";
 
 const char* apiUrl = "http://192.168.0.165:8000/api/captures/";
 
-const char* authToken = "aff54da4f4b76dddda4c810cfa9bbeebe2f64133";
+const char* authToken = "Seu token";
 
 WebServer server(80);
 
