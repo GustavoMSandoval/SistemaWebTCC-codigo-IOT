@@ -5,8 +5,8 @@
 #define DHTPIN 15
 #define DHTTYPE DHT22
 
-const char* ssid = "Lagus2G";
-const char* password = "@Lagus991512777";
+const char* ssid = "Seu wifi";
+const char* password = "Sua senha do wifi";
 
 DHT dht(DHTPIN, DHTTYPE);
 WebServer server(80);
